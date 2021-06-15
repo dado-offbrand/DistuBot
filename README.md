@@ -22,7 +22,7 @@ Known issues:
 Bot Previews:
 (Some things will look way better than others, still changing a lot)
 
- - Help command ( https://prnt.sc/15g9nfd )
+ - Help command ( https://prnt.sc/15gbxwu )
  - Others temporarily won't be shown until polished like this one
 
 ----------------------------------------
