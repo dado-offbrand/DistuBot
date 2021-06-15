@@ -45,7 +45,7 @@ async def on_message(message):
       embed.add_field(name="~d fact", value="Gives a fact.", inline=False)
       embed.add_field(name="~d hello", value="Greets you!", inline=False)
       embed.add_field(name="~d chirp", value="Chirp..!", inline=False)
-      embed.add_field(name="~d mock", value="Make the bot repeat you", inline=False)
+      embed.add_field(name="~d repeat", value="Make the bot repeat your message", inline=False)
       embed.set_footer(text="If you need more help, DistuBot is probably not for you! It's a personal bot anyways.")
       await message.channel.send(embed=embed)
 
@@ -54,9 +54,10 @@ async def on_message(message):
       await message.channel.send("https://cdn.discordapp.com/attachments/798363867482423298/853517850705526784/video0-12.mp4")
 
     # Mock command
-    if 'mock' in message.content:
+    if 'repeat' in message.content:
       mockedMessage = message.content
-      mockedMessage = mockedMessage.strip("~d mock")
+      mockedMessage = mockedMessage.strip("~d repeat")
+      await message.channel.purge(limit=1)
       await message.channel.send(mockedMessage)
 
 # -- <<< Run Bot >>> -- #
