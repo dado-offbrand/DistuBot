@@ -18,6 +18,7 @@ async def on_ready():
 # -- <<< Main Program >>> -- #
 @client.event
 async def on_message(message):
+  # Ignoring itself
   if message.author == client.user:
     return
 
@@ -44,12 +45,18 @@ async def on_message(message):
       embed.add_field(name="~d fact", value="Gives a fact.", inline=False)
       embed.add_field(name="~d hello", value="Greets you!", inline=False)
       embed.add_field(name="~d chirp", value="Chirp..!", inline=False)
+      embed.add_field(name="~d mock", value="Make the bot repeat you", inline=False)
       embed.set_footer(text="If you need more help, DistuBot is probably not for you! It's a personal bot anyways.")
       await message.channel.send(embed=embed)
 
+    # Chirp command
     if 'chirp' in message.content:
       await message.channel.send("https://cdn.discordapp.com/attachments/798363867482423298/853517850705526784/video0-12.mp4")
-  
+
+    # Mock command
+    if 'mock' in message.content:
+      await message.channel.send(message.content)
+
 # -- <<< Run Bot >>> -- #
 keep_alive()
 client.run(os.getenv('TOKEN'))
