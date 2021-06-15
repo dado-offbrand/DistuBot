@@ -7,3 +7,4 @@ A few notes:
  - The .env file isn't included (hidden value for my bot token, it's the password for the bot)
 
  - The images are links due to them being able to be embedded with Discord, resulting in a way easier life.
+ - Due to complications, the bot only stays up for an hour unless interacted with. I know how to fix it, although it is unneeded currently.
