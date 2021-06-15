@@ -14,7 +14,6 @@ A few notes:
 ----------------------------------------
 
 Known issues:
- - Using ~d mock includes the command
  - DistuBot frequently repeats it's facts and images when using ~d cursed fact / ~d cursed image (due to the lack of content)
 
 ----------------------------------------
