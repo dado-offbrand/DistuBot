@@ -55,7 +55,9 @@ async def on_message(message):
 
     # Mock command
     if 'mock' in message.content:
-      await message.channel.send(message.content)
+      mockedMessage = message.content
+      mockedMessage = mockedMessage.strip("~d mock")
+      await message.channel.send(mockedMessage)
 
 # -- <<< Run Bot >>> -- #
 keep_alive()
