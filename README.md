@@ -14,7 +14,7 @@ A few notes:
 ----------------------------------------
 
 Known issues:
- - When using ~d repeat you can no longer ask DistuBot to say "repeat"
+ - When using ~d repeat you can no longer ask DistuBot to say "repeat", nor any characters used in the command
  - DistuBot frequently repeats it's facts and images when using ~d cursed fact / ~d cursed image (due to the lack of content)
 
 ----------------------------------------
