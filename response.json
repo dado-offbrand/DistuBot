@@ -1,0 +1,40 @@
+{
+    "greetings": [
+        "hi",
+        "hello",
+        "hey, whats up qt?",
+        "ayo",
+        "greetings, i am a human",
+        "am i just a scripted robot..?"
+    ],
+
+    "rejections": [
+        "last time i checked, that wasn't a command",
+        "sir that is definitely not a command",
+        "~d ouqwhfoUHQFLASfoqFLAJSFhA"
+    ],
+
+    "awk_rejections": [
+        "um...",
+        "uh, no..",
+        "please stay away from me",
+        "i will not."
+    ],
+
+    "reaction_keys": [
+        "disturbing",
+        "distubot",
+        "cursed",
+        ":D"
+    ],
+
+    "cursed_facts": [
+        "People who are allergic to cockroaches are also allergic to pre-ground coffee... There is no mistake here...", 
+        "In most cases, everybody is an atheist until they clog the toilet in someone else's house.", 
+        "A pigeon once shat it's own portrait on a leaf. Did Bob Ross come back as a bird?", 
+        "Adult culture is spending your paycheck on the items your parents refused to buy for you as a kid",
+        "Thanos couldn't snap with a metal glove on so he did the motion and then made the noise by clapping his ass at the same time",
+        "A company that is called \"Eternal Reefs\" takes the corpses of humans and then turns them into coral",
+        "Breathing is done automatically, but now that I mentioned this you have to do it manually for ~5 minutes."
+    ]
+}
